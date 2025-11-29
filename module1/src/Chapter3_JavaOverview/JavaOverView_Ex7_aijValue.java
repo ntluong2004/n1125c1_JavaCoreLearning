@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Chapter3_JavaOverview;
 
 public class JavaOverView_Ex7_aijValue {
 

@@ -1,3 +1,5 @@
+package Chapter3_JavaOverview;
+
 import java.util.Scanner;
 
 public class JavaOverview_Ex3_ProductTax {
