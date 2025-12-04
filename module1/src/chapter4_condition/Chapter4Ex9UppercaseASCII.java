@@ -1,8 +1,8 @@
-package Chapter4_Condition;
+package chapter4_condition;
 
 import java.util.Scanner;
 
-public class Chapter4_Ex9_UppercaseASCII {
+public class Chapter4Ex9UppercaseASCII {
     static void main() {
         Scanner input = new Scanner(System.in);
         char key, invertKey;

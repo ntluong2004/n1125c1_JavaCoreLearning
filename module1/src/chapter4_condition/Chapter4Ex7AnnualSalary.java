@@ -1,8 +1,8 @@
-package Chapter4_Condition;
+package chapter4_condition;
 
 import java.util.Scanner;
 
-public class Chapter4_Ex7_AnnualSalary {
+public class Chapter4Ex7AnnualSalary {
     void main(String [] args) {
         Scanner input = new Scanner(System.in);
 

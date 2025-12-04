@@ -1,9 +1,9 @@
-package Chapter3_JavaOverview;
+package chapter3_java_overview;
 
 import java.util.Scanner;
 import java.lang.Math;
 
-public class JavaOverview_Ex5_CircleCal {
+public class JavaOverviewEx5CircleCal {
     static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

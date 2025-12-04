@@ -1,6 +1,6 @@
-package Chapter3_JavaOverview;
+package chapter3_java_overview;
 
-public class JavaOverview_Ex8_CommandResult {
+public class JavaOverviewEx8CommandResult {
     static void main(String[] args) {
         int i = 2;
 

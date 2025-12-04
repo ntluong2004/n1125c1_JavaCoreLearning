@@ -1,8 +1,8 @@
-package Chapter4_Condition;
+package chapter4_condition;
 
 import java.util.Scanner;
 
-public class Chapter4_Ex5_FirstDegreeEquation {
+public class Chapter4Ex5FirstDegreeEquation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

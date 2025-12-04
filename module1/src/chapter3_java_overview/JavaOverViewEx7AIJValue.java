@@ -1,6 +1,6 @@
-package Chapter3_JavaOverview;
+package chapter3_java_overview;
 
-public class JavaOverView_Ex7_aijValue {
+public class JavaOverViewEx7AIJValue {
 
     public static int questionA(int i, int j){
         return i++ + j++;

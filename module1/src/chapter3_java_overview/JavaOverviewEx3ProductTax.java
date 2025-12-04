@@ -1,8 +1,8 @@
-package Chapter3_JavaOverview;
+package chapter3_java_overview;
 
 import java.util.Scanner;
 
-public class JavaOverview_Ex3_ProductTax {
+public class JavaOverviewEx3ProductTax {
     static void main() {
         String productName;
         int quantity;

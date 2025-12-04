@@ -1,8 +1,8 @@
-package Chapter4_Condition;
+package chapter4_condition;
 
 import java.util.Scanner;
 
-public class Chapter4_Ex4_MaxMinNumber {
+public class Chapter4Ex4MaxMinNumber {
     static void main(String[] arg) {
         Scanner input = new Scanner(System.in);
         int a, b;

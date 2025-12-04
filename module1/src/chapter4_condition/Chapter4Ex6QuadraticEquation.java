@@ -1,9 +1,9 @@
-package Chapter4_Condition;
+package chapter4_condition;
 
 import java.util.Scanner;
 import static java.lang.Math.sqrt;
 
-public class Chapter4_Ex6_QuadraticEquation {
+public class Chapter4Ex6QuadraticEquation {
 
     static double FirstDegreeEquationCal(int a, int b) {
 

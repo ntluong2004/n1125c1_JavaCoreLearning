@@ -1,8 +1,8 @@
-package Chapter3_JavaOverview;
+package chapter3_java_overview;
 
 import java.util.Scanner;
 
-public class JavaOverview_Ex6_NumberPlate {
+public class JavaOverviewEx6NumberPlate {
     static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

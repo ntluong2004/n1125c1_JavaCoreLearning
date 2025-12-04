@@ -1,6 +1,6 @@
-package Chapter4_Condition;
+package chapter4_condition;
 
-public class Chapter4_Ex1_BooleanValue {
+public class Chapter4Ex1BooleanValue {
     static void main(String[] args) {
 
         boolean a = true && false; //false

@@ -1,8 +1,8 @@
-package Chapter4_Condition;
+package chapter4_condition;
 
 import java.util.Scanner;
 
-public class Chapter4_Ex11_FindNextDay {
+public class Chapter4Ex11FindNextDay {
 
     public static int checkDayOfMonth(int month, int year) {
 
@@ -39,17 +39,16 @@ public class Chapter4_Ex11_FindNextDay {
         if (day > 0 && day <= 31 && month > 0 && month <= 12 && year > 1900 && year <= 2025) {
             if (day > checkDayOfMonth(month, year)) {
                 System.out.println("err: invalid date");
-            } else{
-                if(++day > checkDayOfMonth(month, year)) {
+            } else {
+                if (++day > checkDayOfMonth(month, year)) {
 
                     System.out.println("The next day is: 1/" + (++month) + "/" + year);
 
                 }
-                }
-
-                System.out.println("The next day is " + (++day) + "/" + month + "/" + year);
-
             }
+
+            System.out.println("The next day is " + (++day) + "/" + month + "/" + year);
+
 
         } else {
             System.out.println("err: invalid date");

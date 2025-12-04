@@ -1,8 +1,8 @@
-package Chapter4_Condition;
+package chapter4_condition;
 
 import java.util.Scanner;
 
-public class Chapter4_Ex8_DayOfMonth {
+public class Chapter4Ex8DayOfMonth {
     static void main() {
         Scanner input = new Scanner(System.in);
         int month, year;

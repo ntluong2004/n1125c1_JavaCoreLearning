@@ -1,9 +1,9 @@
-package Chapter4_Condition;
+package chapter4_condition;
 
 import java.util.Scanner;
 import static java.lang.Math.sqrt;
 
-public class Chapter4_Ex10_CheckPerfectSquare {
+public class Chapter4Ex10CheckPerfectSquare {
     static void main() {
         Scanner input = new Scanner(System.in);
         int number;

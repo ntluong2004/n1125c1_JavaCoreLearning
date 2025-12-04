@@ -1,6 +1,6 @@
-package Chapter4_Condition;
+package chapter4_condition;
 
-public class Chapter4_Ex3_ValueInversion {
+public class Chapter4Ex3ValueInversion {
     public static void main(String[] args) {
 
         int a = 3, b = 5, temp;

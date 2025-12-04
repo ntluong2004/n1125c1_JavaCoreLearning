@@ -1,8 +1,8 @@
-package Chapter4_Condition;
+package chapter4_condition;
 
 import java.util.Scanner;
 
-public class Chapter4_Ex2_ConvertNumberToEnglish {
+public class Chapter4Ex2ConvertNumberToEnglish {
     static void main(String[] arg) {
 // Method 1 use else if
         Scanner input = new Scanner(System.in);
