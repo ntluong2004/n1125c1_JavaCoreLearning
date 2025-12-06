@@ -49,6 +49,8 @@ public class Chapter6MethodEx8 {
         salary1 = scanner.nextDouble();
         System.out.print("Average Points: ");
         averagePoints1 = scanner.nextDouble();
+        scanner.nextLine();
+
     }
 
     public static void inputEmployee2(Scanner scanner) {
@@ -140,78 +142,44 @@ public class Chapter6MethodEx8 {
 
     }
 
-
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n;
+        String check;
+        inputEmployee1(scanner);
 
-        do {
-            System.out.println("Please enter n 1-5");
-            n = scanner.nextInt();
+        System.out.println("Enter yes if you want to continue no to break");
+        check = scanner.nextLine();
 
-            if (n > 5 || n < 1) {
-                System.out.print("ERROR: Please Enter n again: ");
+        if (check.equalsIgnoreCase("yes")) {
+            inputEmployee2(scanner);
+            check = scanner.nextLine();
+            if (check.equalsIgnoreCase("yes")) {
+                inputEmployee3(scanner);
+                check = scanner.nextLine();
+                if (check.equalsIgnoreCase("yes")) {
+                    inputEmployee4(scanner);
+                    check = scanner.nextLine();
+                    if (check.equalsIgnoreCase("yes")) {
+                        inputEmployee5(scanner);
+                        printEmployee1();
+                        printEmployee2();
+                        printEmployee3();
+                        printEmployee4();
+                        printEmployee5();
+                    }
+                } else if (check.equalsIgnoreCase("no")) {
+                    printEmployee1();
+                    printEmployee2();
+                    printEmployee3();
+                }
+            } else if (check.equalsIgnoreCase("no")) {
+                printEmployee1();
+                printEmployee2();
             }
-
+        } else if (check.equalsIgnoreCase("no")) {
+            printEmployee1();
         }
-        while (n < 1 || n > 5);
-
-
-        System.out.println("*** Start to enter information ***");
-        if (n == 1) {
-            inputEmployee1(scanner);
-        }
-        if (n == 2) {
-            inputEmployee1(scanner);
-            inputEmployee2(scanner);
-
-        }
-        if (n == 3) {
-            inputEmployee1(scanner);
-            inputEmployee2(scanner);
-            inputEmployee3(scanner);
-        }
-        if (n == 4) {
-            inputEmployee1(scanner);
-            inputEmployee2(scanner);
-            inputEmployee3(scanner);
-            inputEmployee4(scanner);
-        }
-        if (n == 5) {
-            inputEmployee1(scanner);
-            inputEmployee2(scanner);
-            inputEmployee3(scanner);
-            inputEmployee4(scanner);
-            inputEmployee5(scanner);
-        };
-        System.out.println("*** Start to print information ***");
-
-        switch (n) {
-            case 1:
-                printEmployee1();
-                break;
-            case 2:
-                printEmployee1();
-                printEmployee2();
-                break;
-            case 3:
-                printEmployee1();
-                printEmployee2();
-                printEmployee3();
-                break;
-            case 4:
-                printEmployee1();
-                printEmployee2();
-                printEmployee3();
-                printEmployee4();
-                break;
-            case 5:
-                printEmployee1();
-                printEmployee2();
-                printEmployee3();
-                printEmployee4();
-                printEmployee5();
-        }
+        ;
     }
 }
 
