@@ -6,8 +6,7 @@ public class Chapter5LoopEx14 {
     static void main() {
         Scanner input = new Scanner(System.in);
         double n;
-//        Declare distance and count variable
-//        do-while loop require user enter again when number wrong type (n<0), not a number
+
         do {
             System.out.print("Enter n number (n>0): ");
             n = input.nextInt();
