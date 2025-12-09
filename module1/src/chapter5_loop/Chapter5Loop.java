@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class Chapter5Loop {
     static void main() {
-
+for (int i = 1; i <= 100; i++) {
+    System.out.println(i);
+}
     }
 }
 //    static void main() {

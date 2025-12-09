@@ -7,6 +7,7 @@ public class Chapter6MethodEx2 {
 
     static void main(String[] args) {
 
+
         Scanner input = new Scanner(System.in);
         int n;
         do {
