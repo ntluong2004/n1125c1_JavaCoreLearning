@@ -27,7 +27,7 @@ public class Chapter7Ex1 {
 
 //    c. Đếm xem có bao nhiêu chữ l
         int count = 0;
-        for (int i = 01; i < string.length(); i++) {
+        for (int i = 1; i < string.length(); i++) {
             if (string.charAt(i) == 'l') {
                 count += 1;
             }
@@ -45,18 +45,21 @@ public class Chapter7Ex1 {
         System.out.println(string.trim());
 
 //    g. Đảo chuỗi thành dlroW olleH
+
+//        case 1
         StringBuilder sb = new StringBuilder();
         for (int i = string.length() - 1; i >= 0; i--) {
             sb.append(string.charAt(i));
         }
         String newString = sb.toString();
         System.out.println(newString);
+//      case 2
+        String newString1 = sb.reverse().toString();
+        System.out.println(newString1);
 
 //    h. Cho chuỗi "SQC". Hãy tạo thành chuỗi “SQC Hello World”
-        StringBuilder sb2 = new StringBuilder("SQC");
         //Case 1 (use stringBuilder to save memory
-        sb2.append(" Hello World");
-        newString = sb2.toString();
+        newString = "SQC" + " Hello World";
         System.out.println(newString);
         //case2
         String string1 = "SQC";
