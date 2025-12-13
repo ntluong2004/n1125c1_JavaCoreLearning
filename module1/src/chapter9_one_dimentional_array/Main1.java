@@ -4,7 +4,7 @@ import util.Input;
 
 import java.util.Scanner;
 
-public class main1 {
+public class Main1 {
     static void main() {
         Scanner input = new Scanner(System.in);
         //Bước 1: nhập số lượng phần tử của mảng

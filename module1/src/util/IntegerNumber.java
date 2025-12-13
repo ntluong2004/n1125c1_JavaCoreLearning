@@ -1,6 +1,6 @@
 package util;
 
-public class isPrimeNumber {
+public class IntegerNumber {
 
     public static boolean isPrime(int n) {
         if (n <= 1) {
@@ -12,5 +12,9 @@ public class isPrimeNumber {
             }
         }
         return true;
+    }
+
+    public static boolean isPositiveNumber(int n) {
+        return n > 0;
     }
 }

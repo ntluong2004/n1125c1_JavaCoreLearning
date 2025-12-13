@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import util.isPrimeNumber;
+import util.IntegerNumber;
 
 
 public class Chapter9Ex1 {
@@ -100,7 +100,7 @@ public class Chapter9Ex1 {
     //    b. Mảng có phải là mảng toàn số nguyên tố?
     public static boolean isPrimeArray(int[] arr) {
         for (int j : arr) {
-            if (isPrimeNumber.isPrime(j)) {
+            if (IntegerNumber.isPrime(j)) {
                 return false;
             }
         }
@@ -158,7 +158,7 @@ public class Chapter9Ex1 {
     public static int sumOfPrimeNumbers(int[] arr) {
         int sum = 0;
         for (int i : arr) {
-            if (isPrimeNumber.isPrime(i)) {
+            if (IntegerNumber.isPrime(i)) {
                 sum += i;
             }
         }
@@ -180,7 +180,7 @@ public class Chapter9Ex1 {
     //    b. Vị trí số nguyên tố đầu tiên trong mảng nếu có.
     public static int firstIndexOfPrime(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            if (isPrimeNumber.isPrime(arr[i])) {
+            if (IntegerNumber.isPrime(arr[i])) {
                 return i;
             }
         }
