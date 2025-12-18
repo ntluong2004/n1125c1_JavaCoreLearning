@@ -2,7 +2,7 @@ package util;
 
 import java.util.Scanner;
 
-public class Array {
+public class ArrayUtil {
 
     public static void arrayExport(int[] arr) {
         for (int j : arr) {
@@ -75,4 +75,14 @@ public class Array {
         }
         return newArr;
     }
+
+    public static boolean isEvenArray(int[] arr) {
+        for (int j : arr) {
+            if (j % 2 != 0)
+                return false;
+        }
+        return true;
+    }
+
+
 }

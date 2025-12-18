@@ -1,6 +1,6 @@
 package util;
 
-public class IntegerNumber {
+public class IntegerNumberUtil {
 
     public static boolean isPrime(int n) {
         if (n <= 1) {
@@ -16,5 +16,15 @@ public class IntegerNumber {
 
     public static boolean isPositiveNumber(int n) {
         return n > 0;
+    }
+
+    public static int findMaxValue(int[] arr) {
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        return max;
     }
 }
